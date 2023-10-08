@@ -1,5 +1,11 @@
+<devgen-test-eight-global-header
+  (sidenavtoggle)="sideNavToggle()"
+></devgen-test-eight-global-header>
 <div class="wrapper">
   <div class="container">
-    
+    <devgen-test-eight-global-sidenav [opened]="sideNavOpen">
+      <router-outlet></router-outlet>
+    </devgen-test-eight-global-sidenav>
   </div>
 </div>
+<devgen-test-eight-global-footer> </devgen-test-eight-global-footer>
